@@ -6,10 +6,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-/**
- 
- * Declare your methods here.
- 
- */
+ // stringIsPalindrome is a method that takes (NSString *) string <-- [argument]; {BOOL is the return type}
+
+- (BOOL) stringIsPalindrome: (NSString *) string;
+- (NSString *) stringByReversingString: (NSString *) string;
 
 @end
